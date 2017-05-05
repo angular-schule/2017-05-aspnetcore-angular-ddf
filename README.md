@@ -71,6 +71,7 @@ Du entscheidest dich natürlich für Angular!
 Und nun kannst du das Projekt bereits starten:
 
 ```
+set ASPNETCORE_ENVIRONMENT=Development
 dotnet run
 ```
 
