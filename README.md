@@ -1,6 +1,6 @@
 <img src="https://cdn.rawgit.com/angular-schule/2017-05-aspnetcore-angular-ddf/0ca0c016/ddf-logo.svg" width="30%" align="left">
 
-# Dreamteam: ASP.NET Core mit Web API und Angular 4
+# Dreamteam:<br>ASP.NET Core mit Web API & Angular 4
 
 __Workshoptag - 12. Mai__  
 __9:00 Uhr - 17:00 Uhr__  
