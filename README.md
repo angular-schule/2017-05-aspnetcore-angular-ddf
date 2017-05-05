@@ -18,14 +18,24 @@ Zum Ende kannst du die Begriffe NuGet, NPM, Yeoman, Middlewares, Webpack, HMR uv
 Egal ob Windows, Mac oder Linux. Bei diesem Workshop kann jeder mitmachen.  
 Bitte installiere dazu zunächst folgende Software:
 
-* [.NET Core SDK](https://www.microsoft.com/net/download/core#/sdk)
+* [.NET Core SDK 1.03](https://www.microsoft.com/net/download/core#/sdk)
 * [Node.js 6.9 oder höher](https://nodejs.org/en/download/)
+* [Visual Studio Code 1.10 oder höher](https://code.visualstudio.com/#alt-downloads) - ACHTUNG: __nicht__ das große Visual Studio 2017!
 * [Chrome](https://www.google.com/chrome/)
-* [Visual Studio Code 1.10 oder höher](https://code.visualstudio.com/#alt-downloads)
+
+Sicher ist sicher. Bitte anschließend die Versionen überprüfen:
+
+```
+dotnet --version
+> Erwartet: 1.0.3 oder höher
+
+node -v
+> Erwartet: v6.9.x oder höher
+```
  
 ## Pakete installieren und Startprojekt anlegen
 
-Bekanntermaßen ist das Internet auf Konferenzen immer knapp bemessen.
+Bekanntermaßen ist das Internet auf Konferenzen immer knapp bemessen.  
 Bitte mache daher deinen Laptop rechtzeitig lauffähig!
 
 Alle __Windows-User__ sollten vor Beginn des Kurses die `windows-build-tools` installieren.  
@@ -41,15 +51,22 @@ Warnungen von NPM können ignoriert werden.
 
 ```
 npm install -g yo generator-aspnetcore-spa
+npm install -g @angular/cli
 ```
 
-Damit haben Yeoman an Board. Mit diesem Tool kann man besonders leicht neue Projekte erzeugen:
+Damit haben wir Yeoman an Board.  
+Die Angular-CLI verwenden wir übrigens später nur, um neue Komponenten zu generieren.  
+Mit Yeoman kann man besonders leicht neue Projekte erzeugen:
 
 ```
 mkdir book-rating
 cd book-rating
 yo aspnetcore-spa
 ```
+
+Du entscheidest dich natürlich für Angular!
+
+![yo_angular](https://cloud.githubusercontent.com/assets/640639/25765553/e6705604-31ed-11e7-9fc4-ba6fd6626795.png)
  
 Und nun kannst du das Projekt bereits starten:
 
