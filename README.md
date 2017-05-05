@@ -97,4 +97,4 @@ Gehe mit deinem Browser auf http://localhost:5000
 Bei weiteren Fragen wende dich einfach direkt an das Angular-Schule Team:  
 team@angular.schule
 
-### &copy; 2017 http://angular.schule, Stand: 05.05.2017
+### &copy; 2017 http://angular.schule, Stand: 06.05.2017
