@@ -1,6 +1,6 @@
 <img src="https://cdn.rawgit.com/angular-schule/2017-05-aspnetcore-angular-ddf/0ca0c016/ddf-logo.svg" width="30%" align="left">
 
-# Dreamteam:<br>ASP.NET Core mit Web API & Angular 4
+# Dreamteam:<br>ASP.NET Core mit Web API & Angular
 
 __Workshoptag - 12. Mai__  
 __9:00 Uhr - 17:00 Uhr__ 
@@ -88,8 +88,8 @@ Gehe mit deinem Browser auf http://localhost:5000
 
 ## FAQ
 
-* Warum noch kein Angular 4?
-  > Wegen [#800](https://github.com/aspnet/JavaScriptServices/issues/800)!
+* Warum doch noch kein Angular 4?
+  > Wegen [#800](https://github.com/aspnet/JavaScriptServices/issues/800)! 
   
 * Wozu die Angular-CLI?
   > Die Angular-CLI verwenden wir später nur, um neue Komponenten zu generieren. Wir müssen dazu eine Datei mit dem Namen [.angular-cli.json](https://github.com/angular-schule/2017-05-aspnetcore-angular-ddf/wiki/.angular-cli.json) in das Hautpverzeichnis legen.
