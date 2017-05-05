@@ -9,16 +9,57 @@ mit [Johannes Hoppe](https://dotnet-day-franken.de/en/speakers/item/9-johannes-h
 
 ASP.NET Core und Angular. Die Kombination dieser zwei Technologien ist das Dreamteam, wenn es um Webanwendungen geht. Den Start erleichtert uns Microsoft mit den ASP.NET Core JavaScript Services. Die Sammlung von Technologien rund um ASP.NET Core wird Thema dieses Workshops sein.
 
-Wir entwickeln ein Backend mit der Web API von ASP.NET Core 1. Der Zugriff auf die Datenbank geschieht natürlich über das neue Entity Framework. Zusätzlich stellt wir Ihnen ein minimales Beispiel für Angular vor. Sie lernen im Laufe des Workshops alle Bestandteile kennen, die für das Zusammenspiel von Client & Server notwendig sind.
+Wir entwickeln ein Backend mit der Web API von ASP.NET Core 1. Der Zugriff auf die Datenbank geschieht natürlich über das neue Entity Framework (oder In-Memory, falls kein MS SQL Server vorhanden). Zusätzlich stellt wir wir ein vollständiges Beispiel für Angular vor. Du lernst im Laufe des Workshops alle Bestandteile kennen, die für das Zusammenspiel von Client & Server notwendig sind.
 
-Zum Ende können Sie die Begriffe NuGet, NPM, Yeoman, Middlewares, Webpack, HMR uvm. einordnen. Sie werden in der Lage sein, eine erste Angular-App unter .NET Core mit der Web API sowie dem Entity Framework selbst aufzusetzen. 
-Sie erhalten ausführliche Materialien zur Nacharbeit.
+Zum Ende kannst du die Begriffe NuGet, NPM, Yeoman, Middlewares, Webpack, HMR uvm. einordnen. Du wirst in der Lage sein, eine erste Angular-App unter .NET Core mit der Web API sowie dem Entity Framework selbst aufzusetzen. 
 
-## Setup
+## Benötigte Software
 
-Sie benötigen einen Laptop mit vorinstallierter Software:
+Egal ob Windows, Mac oder Linux. Bei diesem Workshop kann jeder mitmachen.  
+Bitte installiere dazu zunächst folgende Software:
 
-* .NET Core SDK
-* Chrome
-* Visual Studio Code
-* Node.js
+* [.NET Core SDK](https://www.microsoft.com/net/download/core#/sdk)
+* [Node.js 6.9 oder höher](https://nodejs.org/en/download/)
+* [Chrome](https://www.google.com/chrome/)
+* [Visual Studio Code 1.10 oder höher](https://code.visualstudio.com/#alt-downloads)
+ 
+## Pakete installieren und Startprojekt anlegen
+
+Bekanntermaßen ist das Internet auf Konferenzen immer knapp bemessen.
+Bitte mache daher deinen Laptop rechtzeitig lauffähig!
+
+Alle __Windows-User__ sollten vor Beginn des Kurses die `windows-build-tools` installieren.  
+Warnungen von NPM können ignoriert werden.  
+Nach der Installation musst du eine neue Konsole starten!
+
+```
+npm install -g windows-build-tools
+```
+
+Danach bitte folgenden Befehl ausführen.  
+Warnungen von NPM können ignoriert werden. 
+
+```
+npm install -g yo generator-aspnetcore-spa
+```
+
+Damit haben Yeoman an Board. Mit diesem Tool kann man besonders leicht neue Projekte erzeugen:
+
+```
+mkdir book-rating
+cd book-rating
+yo aspnetcore-spa
+```
+ 
+Und nun kannst du das Projekt bereits starten:
+
+```
+dotnet run
+```
+
+Bei Fragen wende dich einfach direkt an das Angular-Schule Team:  
+team@angular.schule
+
+<hr>
+
+### &copy; 2017 http://angular.schule, Stand: 05.05.2017
