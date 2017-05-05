@@ -55,7 +55,6 @@ npm install -g @angular/cli
 ```
 
 Damit haben wir Yeoman an Board.  
-Die Angular-CLI verwenden wir übrigens später nur, um neue Komponenten zu generieren.  
 Mit Yeoman kann man besonders leicht neue Projekte erzeugen:
 
 ```
@@ -67,7 +66,12 @@ yo aspnetcore-spa
 Du entscheidest dich natürlich für Angular!
 
 ![yo_angular](https://cloud.githubusercontent.com/assets/640639/25765553/e6705604-31ed-11e7-9fc4-ba6fd6626795.png)
- 
+
+Führe auch noch diese Installation durch:
+```
+npm i --save-dev @angular/cli@1.0.2
+```
+
 Und nun kannst du das Projekt bereits starten:
 
 ```
@@ -84,5 +88,14 @@ Bei Fragen wende dich einfach direkt an das Angular-Schule Team:
 team@angular.schule
 
 <hr>
+
+## FAQ
+
+* Warum noch kein Angular 4?
+  > Wegen [#800](https://github.com/aspnet/JavaScriptServices/issues/800)!
+  
+* Wozu die Angular-CLI?
+  > Die Angular-CLI verwenden wir später nur, um neue Komponenten zu generieren. Wir müssen dazu eine Datei mit dem Namen [.angular-cli.json](https://github.com/angular-schule/2017-05-aspnetcore-angular-ddf/wiki/.angular-cli.json) in das Hautpverzeichnis legen.
+
 
 ### &copy; 2017 http://angular.schule, Stand: 05.05.2017
