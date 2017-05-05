@@ -75,6 +75,11 @@ set ASPNETCORE_ENVIRONMENT=Development
 dotnet run
 ```
 
+Gehe mit deinem Browser auf http://localhost:5000
+# Hello, world!
+
+![image](https://cloud.githubusercontent.com/assets/640639/25765846/62854334-31ef-11e7-9e21-6a14ae75a9fb.png)
+
 Bei Fragen wende dich einfach direkt an das Angular-Schule Team:  
 team@angular.schule
 
