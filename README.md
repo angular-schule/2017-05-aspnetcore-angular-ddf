@@ -84,9 +84,6 @@ Gehe mit deinem Browser auf http://localhost:5000
 
 ![image](https://cloud.githubusercontent.com/assets/640639/25765846/62854334-31ef-11e7-9e21-6a14ae75a9fb.png)
 
-Bei Fragen wende dich einfach direkt an das Angular-Schule Team:  
-team@angular.schule
-
 <hr>
 
 ## FAQ
@@ -97,5 +94,7 @@ team@angular.schule
 * Wozu die Angular-CLI?
   > Die Angular-CLI verwenden wir später nur, um neue Komponenten zu generieren. Wir müssen dazu eine Datei mit dem Namen [.angular-cli.json](https://github.com/angular-schule/2017-05-aspnetcore-angular-ddf/wiki/.angular-cli.json) in das Hautpverzeichnis legen.
 
+Bei weiteren Fragen wende dich einfach direkt an das Angular-Schule Team:  
+team@angular.schule
 
 ### &copy; 2017 http://angular.schule, Stand: 05.05.2017
