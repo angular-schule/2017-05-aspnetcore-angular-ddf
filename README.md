@@ -97,6 +97,11 @@ Gehe mit deinem Browser auf http://localhost:5000
 * Wie integriere ich TSLint und Codelyzer in das Projekt?
   > TSLint ist ein nützliches Werkzeug, um Fehler im TypeScript-Code schon bei der Entwicklung zu erkennen. Codelyzer bringt eine Reihe von Regeln mit, die dem Angular-Styleguide folgen. Dazu müssen wir die TSLint-Extension und Codelyzer installieren und die Datei [.tslint.json](https://github.com/angular-schule/2017-05-aspnetcore-angular-ddf/wiki/tslint.json) im Projektordner anlegen.
 
+<!--* Fertiges Projekt von GitHub zum Laufen bringen?
+  > `git clone https://github.com/angular-schule/2017-05-aspnetcore-angular-ddf.git`
+  > `npm install` oder `yarn install`
+  > `dotnet restore`
+-->
 Bei weiteren Fragen wende dich einfach direkt an das Angular-Schule-Team:  
 team@angular.schule
 
