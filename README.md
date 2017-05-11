@@ -86,6 +86,28 @@ Gehe mit deinem Browser auf http://localhost:5000
 
 <hr>
 
+## NEU: Extensions
+
+Ohne folgende VSCode-Erweiterungen ist der Entwicklungs-Workflow doch recht rustikal.
+
+[<img src="https://cloud.githubusercontent.com/assets/640639/25972125/0835c6ce-369f-11e7-8c0e-43676dd41a02.png" width="100">](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp) 
+[<img src="https://cloud.githubusercontent.com/assets/640639/25972140/158d6a34-369f-11e7-812c-18fd2c5e3a02.png" width="100">](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions) 
+[<img src="https://cloud.githubusercontent.com/assets/640639/25972150/1be2b6fa-369f-11e7-82e8-af1df91c452f.png" width="100">](https://marketplace.visualstudio.com/items?itemName=eg2.tslint) 
+[<img src="https://cloud.githubusercontent.com/assets/640639/25972160/239f66d6-369f-11e7-94df-697457951f8e.png" width="100">](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) 
+[<img src="https://cloud.githubusercontent.com/assets/640639/25972172/29d886fe-369f-11e7-8236-272e06f497de.png" width="100">](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport) 
+[<img src="https://cloud.githubusercontent.com/assets/640639/25972176/2e394148-369f-11e7-95dc-5074e0789bd9.png" width="100">](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) 
+[<img src="https://cloud.githubusercontent.com/assets/640639/25972179/3397e6b2-369f-11e7-89dc-06c3f8c8d020.png" width="100">](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) 
+
+* [`ext install csharp`](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
+* [`ext install csharpextensions`](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions)
+* [`ext install tslint`](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+* [`ext install ng-template`](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+* [`ext install autoimport`](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
+* [`ext install EditorConfig`](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+* [`ext install vscode-icons`](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
+
+<hr>
+
 ## FAQ
 
 * Warum doch noch kein Angular 4?
