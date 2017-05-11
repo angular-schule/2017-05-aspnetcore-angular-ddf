@@ -93,8 +93,11 @@ Gehe mit deinem Browser auf http://localhost:5000
   
 * Wozu die Angular-CLI?
   > Die Angular-CLI verwenden wir später nur, um neue Komponenten zu generieren. Wir müssen dazu eine Datei mit dem Namen [.angular-cli.json](https://github.com/angular-schule/2017-05-aspnetcore-angular-ddf/wiki/.angular-cli.json) in das Hautpverzeichnis legen.
+  
+* Wie integriere ich TSLint und Codelyzer in das Projekt?
+  > TSLint ist ein nützliches Werkzeug, um Fehler im TypeScript-Code schon bei der Entwicklung zu erkennen. Codelyzer bringt eine Reihe von Regeln mit, die dem Angular-Styleguide folgen. Dazu müssen wir die TSLint-Extension und Codelyzer installieren und die Datei [.tslint.json](https://github.com/angular-schule/2017-05-aspnetcore-angular-ddf/wiki/tslint.json) im Projektordner anlegen.
 
-Bei weiteren Fragen wende dich einfach direkt an das Angular-Schule Team:  
+Bei weiteren Fragen wende dich einfach direkt an das Angular-Schule-Team:  
 team@angular.schule
 
-### &copy; 2017 http://angular.schule, Stand: 06.05.2017
+### &copy; 2017 http://angular.schule, Stand: 11.05.2017
