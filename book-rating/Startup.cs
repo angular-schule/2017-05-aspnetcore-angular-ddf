@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using WebApplicationBasic.Controllers;
 using WebApplicationBasic.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApplicationBasic
 {
@@ -35,6 +36,10 @@ namespace WebApplicationBasic
 
             // DI!
             services.AddTransient<IBookRepository, BookRepository>();
+
+            // register EF context - hint: using Microsoft.EntityFrameworkCore;
+            services.AddDbContext<BookRatingContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
