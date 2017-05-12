@@ -30,8 +30,13 @@ export class BooksComponent implements OnInit {
         obj => new Book(obj.isbn, obj.title, obj.description, obj.rating))
       )
       .catch(this.errorHandler)
-      .subscribe(books => this.books = books)
-      
+      .subscribe(books => {
+        this.books = books;
+        this.reorderBooks(null);
+      })
+  }
 
+  reorderBooks(book: Book) {
+    this.books.sort((a, b) => b.rating - a.rating);
   }
 }

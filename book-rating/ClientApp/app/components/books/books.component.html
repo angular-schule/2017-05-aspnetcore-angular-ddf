@@ -3,7 +3,8 @@
     {{ i+1 }}.
 
     <br-book 
-        [book]="b">
+        [book]="b"
+        (rated)="reorderBooks($event)">
     </br-book>
 
 </div>
