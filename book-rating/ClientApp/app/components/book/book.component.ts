@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Book } from './../../models/book';
 
 @Component({
@@ -6,13 +6,21 @@ import { Book } from './../../models/book';
   templateUrl: './book.component.html',
   styleUrls: ['./book.component.css']
 })
-export class BookComponent implements OnInit {
+export class BookComponent {
   
   @Input()
   book: Book;
 
-  constructor() { }
+  @Output()
+  rated = new EventEmitter<Book>();
 
-  ngOnInit() {
+  rateUp() {
+    this.book.rateUp();
+    this.rated.emit(this.book);
+  }
+
+  rateDown() {
+    this.book.rateDown();
+    this.rated.emit(this.book);
   }
 }
