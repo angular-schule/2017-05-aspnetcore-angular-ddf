@@ -5,19 +5,26 @@ namespace WebApplicationBasic.Models
 {
     public class BookRepository: IBookRepository
     {
-        static List<Book> books = new List<Book>();
+        private BookRatingContext context;
 
-        static BookRepository() {
-            books.Add(new Book{ Isbn = "000", Title = "Angular 4", Rating = 5 });
-            books.Add(new Book{ Isbn = "111", Title = ".NET Core", Description = "Alte Zöpfe weg", Rating = 5 });
+        public BookRepository(BookRatingContext context) {
+            context.Database.EnsureCreated();
+
+            if (!context.Books.Any()) {
+                context.Books.Add(new Book { Isbn = "000", Title = "Angular 4", Description = "TypeScript im Web", Rating = 5 });
+                context.Books.Add(new Book { Isbn = "111", Title = ".NET Core", Rating = 3 });
+                context.SaveChanges();                
+            }
+
+            this.context = context;
         }
 
         public IEnumerable<Book> FindAll() {
-            return books.OrderBy(f => f.Isbn);
+            return this.context.Books.OrderBy(f => f.Isbn);
         }
 
         public Book FindByIsbn(string isbn) {
-            return books.FirstOrDefault(f => f.Isbn == isbn);
+            return this.context.Books.FirstOrDefault(f => f.Isbn == isbn);
         }
     }
 }
