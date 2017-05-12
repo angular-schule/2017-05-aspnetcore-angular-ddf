@@ -75,7 +75,13 @@ npm i --save-dev @angular/cli@1.0.2
 Und nun kannst du das Projekt bereits starten:
 
 ```
+# Windows:
 set ASPNETCORE_ENVIRONMENT=Development
+
+# macOS / Linux:
+export ASPNETCORE_ENVIRONMENT=Development
+
+
 dotnet run
 ```
 
