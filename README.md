@@ -13,6 +13,10 @@ Wir entwickeln ein Backend mit der Web API von ASP.NET Core 1. Der Zugriff auf d
 
 Zum Ende kannst du die Begriffe NuGet, NPM, Yeoman, Middlewares, Webpack, HMR uvm. einordnen. Du wirst in der Lage sein, eine erste Angular-App unter .NET Core mit der Web API sowie dem Entity Framework selbst aufzusetzen. 
 
+## Screenshot
+
+![Screenshot](screenshot.png)
+
 ## Benötigte Software
 
 Egal ob Windows, Mac oder Linux. Bei diesem Workshop kann jeder mitmachen.  
