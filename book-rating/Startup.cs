@@ -32,6 +32,9 @@ namespace WebApplicationBasic
         {
             // Add framework services.
             services.AddMvc();
+
+            // DI!
+            services.AddTransient<IBookRepository, BookRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
