@@ -44,7 +44,10 @@ module.exports = (env) => {
         ] : [
             // Plugins that apply in production builds only
             new webpack.optimize.UglifyJsPlugin()
-        ])
+        ]),
+        watchOptions: {
+            poll: 1000
+        }
     });
 
     // Configuration for server-side (prerendering) bundle suitable for running in Node

@@ -17,6 +17,11 @@
                         <span class='glyphicon glyphicon-home'></span> Home
                     </a>
                 </li>
+                <li [routerLinkActive]="['link-active', 'foo']">
+                    <a routerLink="/books">
+                        <span class='glyphicon glyphicon-book'></span> Books
+                    </a>
+                </li>
                 <li [routerLinkActive]="['link-active']">
                     <a [routerLink]="['/counter']">
                         <span class='glyphicon glyphicon-education'></span> Counter

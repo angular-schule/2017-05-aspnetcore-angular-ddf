@@ -5,4 +5,5 @@ import { Component } from '@angular/core';
     templateUrl: './home.component.html'
 })
 export class HomeComponent {
+        title = ".NET Day Franken 2017";
 }
